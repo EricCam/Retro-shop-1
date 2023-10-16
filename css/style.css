@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/img/pared.png");
+    font-family: 'Damion';
+}
+
+.navegador {
+    display: flex;
+    justify-content: end;
+    border-top: 2rem;
+    width: 100%;
+    padding-right: 2rem;
+
+}
+
+.iconos-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.login {
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-top: 2rem;
+
+}
+
+
+.corazon {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2.5rem;
+
+
+}
+
+.carrito {
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-top: 2rem;
+}
+
+.estante {
+    display: flex;
+    justify-content: center;
+    padding-left: 4rem;
+    width: 80rem;
+    height: 40rem;
+
+}
+
+.camara {
+    position: absolute;
+    top: 25%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 10rem;
+}
+
+.h4 {
+    position: absolute;
+    top: 240%;
+    left: 147%;
+    transform: translate(-50%, -50%);
+    color: #FCDC0A;
+    font-size: 3rem;
+    text-wrap: nowrap;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input {
+
+    background-color: #AE9F8E;
+}
+
+/* .cc{
+      display: flex;
+      justify-content: center;
+      margin-left: 10rem;
+      margin-right: 10rem;
+  } */
+.slider-container img {
+    width: 18rem;
+    height: 18rem;
+
+}
+
+
+.auto {
+    width: 5rem;
+    height: 5rem;
+}
+
+.robot {
+    width: 5rem;
+    height: 5rem;
+}
+
+.caballo {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.container {
+    margin-left: 4rem;
+}
+
+.contenedor {
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-width: 120rem;
+
+}
+
+.centrado {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.img-galeria {
+    width: 6rem;
+    height: 5.5rem;
+}
+
+
+
+.link {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.redes-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h5 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.facebook {
+    width: 5rem;
+    height: 5rem;
+}
+
+.instagram {
+    width: 4rem;
+    height: 4rem;
+}
+
+.whatsapp {
+    width: 5rem;
+    height: 5rem;
+}
+
+.gmail {
+    width: 5rem;
+    height: 5rem;
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+
+}
+
+
+
+
+/* paginas */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 4rem;
+}
+
+
+/* formulario de ingreso */
