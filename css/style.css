@@ -231,5 +231,14 @@ h5 {
     margin-bottom: 4rem;
 }
 
+#map {
+    height: 100%;
+    }
+ 
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
 
 /* formulario de ingreso */
