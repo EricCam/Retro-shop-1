@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consola</title>
+    <title>Formulario</title>
     <link rel="icon" href="../assets/img/robot.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,31 @@
 
 <body>
     <main>
+        <h1>Formulario de registro</h1>
+        <form id="registration-form">
+            <label for="nombre">Nombre: </label>
+            <input size="30" type="text" id="nombre" required placeholder="Ingrese su nombre...">
+            <label for="apellido">Apellido:</label>
+            <input size="30" type="text" id="apellido" required placeholder="Ingrese su apellido...">
+            <label for="city">Ciudad: </label>
+            <input type="text" name="city" placeholder="Ingrese su ciudad...">
+            <label for="codigo">Código Postal:</label>
+            <input type="text" id="codigo" required placeholder="Ingrese su código postal...">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" required placeholder="Ingrese su dirección...">
+            <label for="numero">Numero:</label>
+            <input type="number" id="numero" required placeholder="Ingrese el número..">
+            <label for="clave">Contraseña: </label>
+            <input size="35" type="password" id="clave" required placeholder="Minimo 8 caracteres (entre letras y números).">
+            <label for="confirmar-clave">Repetir contraseña: </label>
+            <input type="password" id="confirmar-clave" required>
+            <label for="mail">Mail: </label>
+            <input type="email" id="mail">
+            <button id="enviarButton" type="submit">Enviar</button>
+            <a href="../index.html">Volver</a>
+        </form>
+        <script src="/js/form.js"></script>
     </main>
-
 
     <footer>
         <h5>Seguinos en nuestras Redes Sociales</h5>
