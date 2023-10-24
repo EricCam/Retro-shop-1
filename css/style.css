@@ -207,6 +207,20 @@ h5 {
 
 }
 
+copyright {  
+    align-self: flex-end;
+    position: absolute;
+}
+
+.copyright p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.25rem 0;
+    color:maroon;
+    align-items: center;
+    text-align: center;
+   
+}
+
 
 
 
