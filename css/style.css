@@ -231,25 +231,11 @@ h5 {
 
 /* Formulario */
 
-body, form {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    background-color: #f5e6da;
-    font-family: 'Damion', cursive;
-}
 
-h1 {
-    text-align: center;
-    font-family: 'Damion', cursive;
-    font-size: 36px;
-    color: #000;
-    margin-top: 20px;
-}
 
-form {
+
+.form-formulario {
     background-color: #fff; 
     max-width: 600px;
     margin: 0 auto;
@@ -263,13 +249,13 @@ form {
     justify-content: space-between;
 }
 
-label {
+.label-formulario {
     font-size: 16px;
     color: #000; 
     font-family: 'Damion', cursive;
 }
 
-input {
+.input-formulario {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
@@ -279,7 +265,7 @@ input {
     box-sizing: border-box;
 }
 
-button {
+.button {
     background-color: #635f5c; 
     color: #fff;
     font-size: 16px;
@@ -290,17 +276,17 @@ button {
     font-family: 'Damion', cursive;
 }
 
-button:hover {
+.button:hover {
     background-color: #ad7f49; 
 }
 
-a {
+.a-formulario {
     text-decoration: none;
     color: #1a1817;
     font-family: 'Damion', cursive;
 }
 
-/* formulario de ingreso */
+
 
 /*RESPONSIVE*/
 
