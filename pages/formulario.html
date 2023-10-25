@@ -5,23 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consola</title>
+    <title>Formulario</title>
     <link rel="icon" href="../assets/img/robot.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto:ital,wght@0,100;0,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="reset.css">
+    
 
 
 </head>
 
 
 <body>
-    <main>
-    </main>
+    <header>
+        <nav class="navegador">
+            <div class="iconos-nav">
+                <a href="../pages/formulario.html"><img class="login" src="../assets/img/usuario.png"
+                        alt="ingreso usuario"></a>
+                <a href=""><img class="corazon" src="../assets/img/corazon.png" alt="favoritos"></a>
+                <a href=""><img class="carrito" src="../assets/img/carrito.png" alt="carrito de compras"></a>
+            </div>
+        </nav>
 
+            <div class="estante">
+                <img src="./assets/img/estante-camara-2.png" alt="">
+                    <div class="h4">
+                        <h4>Retro-Shop</h4>
+                    </div>
+            </div>
+
+    </header>
+    <main>
+        <h1>Formulario de registro</h1>
+        <form class="form-formulario" id="registration-form">
+            <label class="label-formulario" for="nombre">Nombre: </label>
+            <input class="input-formulario" size="30" type="text" id="nombre" required placeholder="Ingrese su nombre...">
+            <label class="label-formulario" for="apellido">Apellido:</label>
+            <input class="input-formulario" size="30" type="text" id="apellido" required placeholder="Ingrese su apellido...">
+            <label class="label-formulario" for="city">Ciudad: </label>
+            <input class="input-formulario" type="text" name="city" placeholder="Ingrese su ciudad...">
+            <label class="label-formulario" for="codigo">Código Postal:</label>
+            <input class="input-formulario" type="text" id="codigo" required placeholder="Ingrese su código postal...">
+            <label class="label-formulario" for="direccion">Dirección:</label>
+            <input class="input-formulario" type="text" id="direccion" required placeholder="Ingrese su dirección...">
+            <label class="label-formulario" for="numero">Numero:</label>
+            <input class="input-formulario" type="number" id="numero" required placeholder="Ingrese el número..">
+            <label class="label-formulario" for="clave">Contraseña: </label>
+            <input class="input-formulario" size="35" type="password" id="clave" required placeholder="Minimo 8 caracteres (entre letras y números).">
+            <label class="label-formulario" for="confirmar-clave">Repetir contraseña: </label>
+            <input class="input-formulario" type="password" id="confirmar-clave" required>
+            <label class="label-formulario" for="mail">Mail: </label>
+            <input class="input-formulario" type="email" id="mail">
+            <button class="button-formulario" id="enviarButton" type="submit">Enviar</button>
+           
+        </form>
+        <script src="/js/form.js"></script>
+    </main>
 
     <footer>
         <h5>Seguinos en nuestras Redes Sociales</h5>

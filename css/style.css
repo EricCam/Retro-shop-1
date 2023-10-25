@@ -229,8 +229,57 @@ h5 {
     margin-bottom: 4rem;
 }
 
+/* Formulario */
 
-/* formulario de ingreso */
+
+
+
+
+.form-formulario {
+    background-color: #fff; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #bba69b;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #ad7f49;
+    font-family: 'Damion', cursive;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.label-formulario {
+    font-size: 16px;
+    color: #000; 
+    font-family: 'Damion', cursive;
+}
+
+.input-formulario {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.button-formulario {
+    background-color: #635f5c; 
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Damion', cursive;
+}
+
+.button-formulario:hover {
+    background-color: #ad7f49; 
+}
+
 
 /*RESPONSIVE*/
 
@@ -400,5 +449,4 @@ footer{
     footer{
     margin-left: 16rem;
 } 
-
 }
