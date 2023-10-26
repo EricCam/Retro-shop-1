@@ -232,6 +232,76 @@ h5 {
 
 /* formulario de ingreso */
 
+
+body, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5e6da;
+    font-family: 'Damion', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Damion', cursive;
+    font-size: 36px;
+    color: #000;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #bba69b;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #ad7f49;
+    font-family: 'Damion', cursive;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+label {
+    font-size: 16px;
+    color: #000; 
+    font-family: 'Damion', cursive;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #635f5c; 
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Damion', cursive;
+}
+
+button:hover {
+    background-color: #ad7f49; 
+}
+
+a {
+    text-decoration: none;
+    color: #1a1817;
+    font-family: 'Damion', cursive;
+}
+
 /*RESPONSIVE*/
 
 @media (max-width: 601px){
