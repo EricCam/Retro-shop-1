@@ -229,77 +229,94 @@ h5 {
     margin-bottom: 4rem;
 }
 
+/* Formulario */
 
-/* formulario de ingreso */
 
-
-body, form {
-    margin: 0;
-    padding: 0;
+.h1-formulario{
+    margin-bottom: 2rem;
 }
+    
 
-body {
-    background-color: #f5e6da;
-    font-family: 'Damion', cursive;
-}
 
-h1 {
-    text-align: center;
-    font-family: 'Damion', cursive;
-    font-size: 36px;
-    color: #000;
-    margin-top: 20px;
-}
-
-form {
+.form-formulario {
     background-color: #fff; 
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid #bba69b;
+    border: 2px solid #000;
     border-radius: 10px;
-    box-shadow: 4px 4px 6px #ad7f49;
-    font-family: 'Damion', cursive;
+    box-shadow: 4px 4px 6px #000;
+    font-family: 'Damion';
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between;
 }
 
-label {
-    font-size: 16px;
+.label-formulario {
+    font-size: 22px;
     color: #000; 
-    font-family: 'Damion', cursive;
+    font-family: 'Damion';
 }
 
-input {
+.input-formulario {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
     border: 1px solid #000; 
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     box-sizing: border-box;
 }
 
-button {
+.button-formulario {
     background-color: #635f5c; 
     color: #fff;
-    font-size: 16px;
+    font-size: 22px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Damion', cursive;
+    font-family: 'Damion';
 }
 
-button:hover {
-    background-color: #ad7f49; 
+.button-formulario:hover {
+    background-color: #000; 
 }
 
-a {
-    text-decoration: none;
-    color: #1a1817;
-    font-family: 'Damion', cursive;
+.h5-formulario{
+    margin-top: 2rem;
+}
+
+/* js.js */
+
+.opiniones-1{
+
+    padding: 1rem; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgba(228, 230, 231, 0.842);     
+    border: 2px solid #000; 
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center; 
+    
+}
+
+.h4-2{
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    
+}
+
+.name-1{
+    padding-top: 0.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.name-2{
+    
 }
 
 /*RESPONSIVE*/
@@ -450,7 +467,12 @@ footer{
     .h5{
         font-size: 3.5rem;
 }
+
+.opiniones-1{
+    display: none;
 }
+}
+
 
 @media (max-width: 350px){
     .navegador{
@@ -470,5 +492,4 @@ footer{
     footer{
     margin-left: 16rem;
 } 
-
 }
